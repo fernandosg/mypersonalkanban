@@ -13,5 +13,8 @@ MustacheJS
 Furatto.min.js
 JQuery
 
+¿How to run?
+Just download the code and (after install rails) run : "npm start", the code will do the rest
+
 The design was made with the framework Furatto (a very very good framework, if you dont know this, you can download in http://icalialabs.github.io/furatto/)
 This is a very very beta version, in the next day the changes will be cools and not bad code that is :3.
