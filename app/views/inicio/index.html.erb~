@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Kanban project</title>
+		<meta charset="utf8">
+		<link rel="stylesheet" type="text/css" href="css/furatto.min.css">
+		<style type="text/css">
+			header{
+				background: grey;
+			}
+		</style>
+	</head>
+	<body>
+		<main class="row">							
+		</main>
+		<div class="modal" id="modal-2">
+			<div id="formPost" class="modal-content">
+				<input type="text" id="name" placeholder="Escribe el nombre de usuario">
+				<input type="text" id="password" placeholder="Escribe la contraseña">
+				<button id="send" class="button modal-close" data-identify="">Ingresar</button>
+			</div>	
+		</div>
+
+	<script src="js/public/jquery.min.js"></script>
+	<script type="text/javascript" src="js/public/furatto.min.js"></script>
+	<script type="text/javascript" src="js/public/mustache.min.js"></script>
+	<script type="text/javascript" src="js/bundle.js"></script>	
+	</body>	
+</html>

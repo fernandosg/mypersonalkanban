@@ -1,0 +1,37 @@
+<div class="col-12">
+	<button id="savepost">Realizar respaldo</button>	
+</div>
+<section id="principal" class="col-12">
+				<section id="column1" class="columns col-4" style="vertical-align:top;  display:inline-block; padding-bottom:50px;">
+					<header class="col-12">
+						<b>Por hacer</b>
+						<img src="../img/add.png" data-identify="1" data-furatto="modal" data-target="#modal-1" class="addPost" />
+					</header>				
+					<section class="col-12 container" style="min-height:100px;">
+					</section>
+				</section>
+				<section id="column2" class="columns col-4" style="vertical-align:top; display:inline-block; padding-bottom:50px;" >
+					<header class="col-12">
+						<b>En proceso</b>
+						<img src="../img/add.png" data-identify="2" data-furatto="modal" data-target="#modal-1" class="addPost" />
+					</header>				
+					<section class="col-12 container" style="min-height:100px;">
+					</section>
+				</section>
+				<section id="column3" class="columns col-4" style="vertical-align:top; display:inline-block; padding-bottom:50px;">
+					<header class="col-12">
+						<b>Finalizado</b>
+						<img src="../img/add.png" data-identify="3" data-furatto="modal" data-target="#modal-1" class="addPost"/>						
+					</header>
+					<section class="col-12 container" style="min-height:100px;" >
+					</section>
+				</section>
+			</section>
+		<div class="modal" id="modal-1">
+			<div id="formPost" class="modal-content">
+				<input type="text" id="title-post" placeholder="Escribe el titulo de la nota">
+				<textarea id="description-post" placeholder="Escribe una descripcion de la nota"></textarea>		
+				<button id="addPostToColumn" class="button modal-close" data-identify=""></button>
+			</div>	
+		</div>
+</section>

@@ -1,0 +1,25 @@
+{
+  "name": "my-personal-kanban",
+  "version": "0.0.1",
+  "description": "My Personal Kanban",
+  "main": "js/app.js",
+  "dependencies": {
+    "underscore": "^1.7.0"
+  },
+  "devDependencies": {
+    "browserify": "~6.2.0",
+    "watchify": "~2.1.0"
+  },
+  "scripts": {
+    "start": "watchify -o js/bundle.js -v -d .",
+    "build": "browserify . | uglifyjs -cm > js/bundle.min.js"
+  },
+  "author": "Fernando Segura",
+  "browserify": {
+    "transform": [
+      "reactify",
+      "envify"
+    ]
+  }
+}
+

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>App</title>
+  <%= stylesheet_link_tag    'furatto.min', media: 'all', 'data-turbolinks-track' => true %> 
+  <style type="text/css">
+    body{
+      margin:0px;
+    }
+  	.addPost{
+  		cursor: pointer;
+  	}
+
+    #error-msg{
+      color:red;
+    }
+
+    header.topbar{
+        background:#008aba;
+        max-height: 50px;
+    }
+
+    header.topbar h2{
+      color:white;
+    }
+  </style>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<header class="topbar row">
+  <h2>My Personal Kanban</h2>
+</header>
+<%= yield %>
+
+  <%= javascript_include_tag 'jquery.min', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'furatto.min', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'mustache.min', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'packing', 'data-turbolinks-track' => true %>
+</body>
+</html>
