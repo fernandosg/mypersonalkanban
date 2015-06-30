@@ -9,7 +9,7 @@ default: &default
   host: localhost
   database: kanban
   username: root
-  password: mundof
+  password: 
   pool: 5
   encoding: utf8
 
@@ -19,7 +19,7 @@ development:
   host: localhost
   database: kanban
   username: root
-  password: mundof
+  password: 
   pool: 5
   encoding: utf8
 
